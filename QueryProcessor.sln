@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QueryProcessor", "win32app\win32app.vcxproj", "{8C5F22F9-469F-4678-8302-90896A65F95C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D77F492B-2F7E-4FA7-B130-B83854F6C5D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C5F22F9-469F-4678-8302-90896A65F95C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C5F22F9-469F-4678-8302-90896A65F95C}.Debug|Win32.Build.0 = Debug|Win32
+		{8C5F22F9-469F-4678-8302-90896A65F95C}.Release|Win32.ActiveCfg = Release|Win32
+		{8C5F22F9-469F-4678-8302-90896A65F95C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

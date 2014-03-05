@@ -1,0 +1,9 @@
+Como Compilar con Bison y Flex:
+
+Bison (Parser.y)
+
+win_bison parser.y
+
+Flex (Lexer.l)
+
+win_flex --wincompat lexer.l

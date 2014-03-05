@@ -1,0 +1,38 @@
+﻿Compilación iniciada a las 23/02/2014 11:26:34 PM.
+     1>Proyecto "C:\Users\Luis Maradiaga\Desktop\QueryProcessor\win32app\win32app.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\Documents\Visual Studio 2012\Projects\PruebaCompilador\PruebaCompilador\Expression.cpp" "..\..\..\Documents\Visual Studio 2012\Projects\PruebaCompilador\PruebaCompilador\Lexer.cpp" "..\..\..\Documents\Visual Studio 2012\Projects\PruebaCompilador\PruebaCompilador\main.cpp" "..\..\..\Documents\Visual Studio 2012\Projects\PruebaCompilador\PruebaCompilador\Parser.cpp" QueryWindow.cpp
+         QueryWindow.cpp
+     1>c:\users\luis maradiaga\desktop\queryprocessor\win32app\querywindow.cpp(125): warning C4101: 'ps' : variable local sin referencia
+     1>c:\users\luis maradiaga\desktop\queryprocessor\win32app\querywindow.cpp(126): warning C4101: 'hdc' : variable local sin referencia
+         Parser.cpp
+         main.cpp
+         Lexer.cpp
+         Expression.cpp
+         Generando código...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\Documents\Visual Studio 2012\Projects\PruebaCompilador\PruebaCompilador\Lexer.c" "..\..\..\Documents\Visual Studio 2012\Projects\PruebaCompilador\PruebaCompilador\Parser.c"
+         Parser.c
+         Lexer.c
+     1>lexer.l(32): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : vea la declaración de 'sscanf'
+         Generando código...
+     1>c:\users\luis maradiaga\desktop\queryprocessor\win32app\parser.y(14): warning C4716: 'yyerror' : debe devolver un valor
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luis Maradiaga\Desktop\QueryProcessor\Debug\QueryProcessor.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Luis Maradiaga\Desktop\QueryProcessor\Debug\QueryProcessor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luis Maradiaga\Desktop\QueryProcessor\Debug\QueryProcessor.lib" /MACHINE:X86 Debug\Expression.obj
+         Debug\Lexer.obj
+         Debug\Lexer.obj
+         Debug\main.obj
+         Debug\Parser.obj
+         Debug\Parser.obj
+         Debug\QueryWindow.obj
+     1>Debug\Lexer.obj : warning LNK4042: objeto especificado más de una vez; omitidos los sobrantes
+     1>Parser.obj : error LNK2005: ya se definió _yyerror en Lexer.obj
+     1>Debug\Parser.obj : warning LNK4042: objeto especificado más de una vez; omitidos los sobrantes
+     1>Parser.obj : error LNK2019: símbolo externo _createNumber sin resolver al que se hace referencia en la función _yyparse
+     1>Parser.obj : error LNK2019: símbolo externo _createOperation sin resolver al que se hace referencia en la función _yyparse
+     1>C:\Users\Luis Maradiaga\Desktop\QueryProcessor\Debug\QueryProcessor.exe : fatal error LNK1120: 2 externos sin resolver
+     1>Compilación del proyecto terminada "C:\Users\Luis Maradiaga\Desktop\QueryProcessor\win32app\win32app.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:02.72
